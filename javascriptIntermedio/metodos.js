@@ -96,3 +96,7 @@ function borrarAtributo(objeto, propiedad) {
 }
 
 borrarAtributo(persona, "edad");
+
+let nombre = "Sebastian";
+let nuevoNombre = nombre.slice(0, 4);
+console.log(nuevoNombre);
